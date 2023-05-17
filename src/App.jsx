@@ -21,12 +21,12 @@ const App = () => {
       <div>
         <p>Chargement en cours....</p>
       </div>
-    )
-  }
+    );
+  };
 
   return (
     <>
-    <h1>Les simpsons</h1>
+      <h1>Les simpsons</h1>
       {simpsonsInfo.length === 0 ? loadingMessage() : displayCard()}
     </>
   );
